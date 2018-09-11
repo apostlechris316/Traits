@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1.0</Version>
+    <Authors>Chris Williams</Authors>
+    <Company>Read Watch Create</Company>
+    <Product>Traits</Product>
+    <Description>This project assists in unit testing the traits libraries after a build</Description>
+    <Copyright>(c) 2018 Read Watch Create</Copyright>
+    <PackageReleaseNotes>v0.0.1.0 - First Pre-Release Build within the Traits product.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Foundation\CSHARPStandard.Traits.Business\CSHARPStandard.Traits.Business.csproj" />
+    <ProjectReference Include="..\..\Foundation\CSHARPStandard.Traits.ProvidersByReflection\CSHARPStandard.Traits.ProvidersByReflection.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="test_traits.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

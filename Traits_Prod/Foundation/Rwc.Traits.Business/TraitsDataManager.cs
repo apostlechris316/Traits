@@ -5,17 +5,17 @@
  *          chris.williams@readwatchcreate.com
  ********************************************************************************/
 
-namespace CSHARPStandard.Traits.Business
+namespace Rwc.Traits.Business
 {
     using CSHARPStandard.Data.Common;
     using CSHARPStandard.Diagnostics;
-    using CSHARPStandard.Traits.Data;
+    using Rwc.Traits.Data;
     using System;
 
     /// <summary>
     /// Base implemention of all Data Reader Providers
     /// </summary>
-    public class DataManager : IDataReader, IDataWriter
+    public class TraitsDataManager : ITraitsDataReader, ITraitsDataWriter
     {
         /// <summary>
         /// Object To Store Status

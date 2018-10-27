@@ -5,13 +5,13 @@
  *          chris.williams@readwatchcreate.com
  ********************************************************************************/
 
-namespace CSHARPStandard.Traits.Business
+namespace Rwc.Traits.Business
 {
     using CSHARPStandard.Data;
     using CSHARPStandard.Data.Common;
     using CSHARPStandard.Data.Json;
     using CSHARPStandard.IO;
-    using CSHARPStandard.Traits.Data;
+    using Rwc.Traits.Data;
     using System;
     using System.Collections.Generic;
     using System.Data;

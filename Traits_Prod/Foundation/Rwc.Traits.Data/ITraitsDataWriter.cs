@@ -5,14 +5,14 @@
  *          chris.williams@readwatchcreate.com
  ********************************************************************************/
 
-namespace CSHARPStandard.Traits.Data
+namespace Rwc.Traits.Data
 {
     using CSHARPStandard.Diagnostics;
 
     /// <summary>
     /// Interface implemented by all Data Writer Providers
     /// </summary>
-    public interface IDataWriter
+    public interface ITraitsDataWriter
     {
         /// <summary>
         /// Object To Store Status

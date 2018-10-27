@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1.1</Version>
+    <Authors>Chris Williams</Authors>
+    <Company>Read Watch Create</Company>
+    <Product>Traits</Product>
+    <Description>This library provides a base for reading and writing traits or properties about your application.</Description>
+    <Copyright>(c) 2018 Read Watch Create</Copyright>
+    <PackageReleaseNotes>v0.0.1.0 - First production release.
+v0.0.1.1 - Uses latest version of CSHARPStandard.IO</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSHARPStandard.Data" Version="2.0.0.11" />
+    <PackageReference Include="CSHARPStandard.Data.Json" Version="0.0.0.2" />
+    <PackageReference Include="CSHARPStandard.IO" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rwc.Traits.Data\Rwc.Traits.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1.0</Version>
+    <Authors>Chris Williams</Authors>
+    <Company>Read Watch Create</Company>
+    <Product>Traits</Product>
+    <Description>This library contains the base Data Transfer Objects for traits</Description>
+    <Copyright>(c) 2018 Read Watch Create</Copyright>
+    <PackageReleaseNotes>v0.0.1.0 - First Production Release</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSHARPStandard.Data.Common" Version="0.0.0.7" />
+    <PackageReference Include="CSHARPStandard.Diagnostics" Version="1.0.0.6" />
+  </ItemGroup>
+
+</Project>

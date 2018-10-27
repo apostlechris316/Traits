@@ -5,19 +5,20 @@
  *          chris.williams@readwatchcreate.com
  ********************************************************************************/
 
-namespace CSHARPStandard.Traits.Data
+namespace Rwc.Traits.Data
 {
     using CSHARPStandard.Data.Common;
     using System.Collections.Generic;
 
     /// <summary>
-    /// Interface implemented by Data Transfer Objects for configuration pairs
+    /// Data Transfer Object for configuration pairs
     /// </summary>
-    public interface ITraits
+    public class BaseTraits : ITraits
     {
         /// <summary>
-        /// These are pairs of items that make Dain unique.
+        /// These are pairs of items that make Sitecore Dain unique.
         /// </summary>
-        List<ICustomField> TraitPairs { get; }
+        public List<ICustomField> TraitPairs { get { return _traitPairs; } }
+        private List<ICustomField> _traitPairs = new List<ICustomField>();
     }
 }

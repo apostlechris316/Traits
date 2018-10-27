@@ -5,10 +5,10 @@
  *          chris.williams@readwatchcreate.com
  ********************************************************************************/
 
-namespace CSHARPStandard.Traits.ProvidersByReflection
+namespace Rwc.Traits.ProvidersByReflection
 {
     using CSHARPStandard.Diagnostics;
-    using CSHARPStandard.Traits.Data;
+    using Rwc.Traits.Data;
 
     /// <summary>
     /// Base class for all Data Provider Managers

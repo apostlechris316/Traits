@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1.0</Version>
+    <Authors>Chris Williams</Authors>
+    <Company>Read Watch Create</Company>
+    <Product>Traits</Product>
+    <Description>This library provides a mechanism to dynamically load providers from traits files.</Description>
+    <Copyright>(c) 2018 Read Watch Create</Copyright>
+    <PackageReleaseNotes>v0.0.1.0 - First Production Release</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSHARPStandard.IO" Version="1.0.1" />
+    <PackageReference Include="CSHARPStandard.Reflection" Version="1.0.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rwc.Traits.Business\Rwc.Traits.Business.csproj" />
+    <ProjectReference Include="..\Rwc.Traits.Data\Rwc.Traits.Data.csproj" />
+  </ItemGroup>
+
+</Project>

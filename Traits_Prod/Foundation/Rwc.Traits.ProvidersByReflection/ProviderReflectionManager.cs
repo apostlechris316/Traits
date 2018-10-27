@@ -5,12 +5,12 @@
  *          chris.williams@readwatchcreate.com
  ********************************************************************************/
 
-namespace CSHARPStandard.Traits.ProvidersByReflection
+namespace Rwc.Traits.ProvidersByReflection
 {
     using CSHARPStandard.IO;
     using CSHARPStandard.Reflection;
-    using CSHARPStandard.Traits.Business;
-    using CSHARPStandard.Traits.Data;
+    using Rwc.Traits.Business;
+    using Rwc.Traits.Data;
     using System;
     using System.Collections.Generic;
     using System.IO;

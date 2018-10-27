@@ -1,12 +1,14 @@
 namespace TestTraitsBusiness
 {
-    using CSHARPStandard.Traits.Business;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Rwc.Traits.Business;
     using System;
 
     [TestClass]
     public class TestTraitHelper
     {
+        public const string TestTraitsRootPath = "c:\\traits";
+
         [TestMethod]
         public void TestTraitHelperGetTraitsEmptyTraitsPathAndFilename()
         {
@@ -29,7 +31,7 @@ namespace TestTraitsBusiness
         {
             var traitsHelper = new TraitHelper()
             {
-                TraitPath = "c:\\",
+                TraitPath = TestTraitsRootPath,
                  TraitFileName = "TestTraits"
             };
 
@@ -41,7 +43,7 @@ namespace TestTraitsBusiness
         {
             var traitsHelper = new TraitHelper()
             {
-                TraitPath = "c:\\",
+                TraitPath = TestTraitsRootPath,
                 TraitFileName = "TestTraits"
             };
 
@@ -61,7 +63,7 @@ namespace TestTraitsBusiness
         {
             var traitsHelper = new TraitHelper()
             {
-                TraitPath = "c:\\",
+                TraitPath = TestTraitsRootPath,
                 TraitFileName = "TestTraits"
             };
 
@@ -73,7 +75,7 @@ namespace TestTraitsBusiness
         {
             var traitsHelper = new TraitHelper()
             {
-                TraitPath = "c:\\",
+                TraitPath = TestTraitsRootPath,
                 TraitFileName = "TestTraits"
             };
 
@@ -85,7 +87,7 @@ namespace TestTraitsBusiness
         {
             var traitsHelper = new TraitHelper()
             {
-                TraitPath = "c:\\",
+                TraitPath = TestTraitsRootPath,
                 TraitFileName = "TestTraits"
             };
 
@@ -97,7 +99,7 @@ namespace TestTraitsBusiness
         {
             var traitsHelper = new TraitHelper()
             {
-                TraitPath = "c:\\",
+                TraitPath = TestTraitsRootPath,
                 TraitFileName = "TestTraits"
             };
 
@@ -109,11 +111,13 @@ namespace TestTraitsBusiness
         {
             var traitsHelper = new TraitHelper()
             {
-                TraitPath = "c:\\",
+                TraitPath = TestTraitsRootPath,
                 TraitFileName = "TestTraits"
             };
 
-            traitsHelper.GetTraitTemplate("c:\\TestTraitsTemplate.json");
+            var traitsTemplateFilePath = TestTraitsRootPath + (!TestTraitsRootPath.EndsWith('\\') ? "\\" : "") + "TestTraitsTemplate.json";
+            var traits = traitsHelper.GetTraitTemplate(traitsTemplateFilePath);
+            if (traits == null) throw new Exception("ERROR: Cannot GetTraitTemplate");
         }
     }
 }

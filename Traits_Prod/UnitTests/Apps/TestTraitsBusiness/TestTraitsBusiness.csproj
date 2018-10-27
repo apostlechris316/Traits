@@ -13,8 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\CSHARPStandard.Traits.Business\CSHARPStandard.Traits.Business.csproj" />
-    <ProjectReference Include="..\..\..\Foundation\CSHARPStandard.Traits.Data\CSHARPStandard.Traits.Data.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Rwc.Traits.Business\Rwc.Traits.Business.csproj" />
   </ItemGroup>
 
 </Project>

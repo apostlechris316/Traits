@@ -1,7 +1,7 @@
 namespace TestTraitsData
 {
     using CSHARPStandard.Data.Common;
-    using CSHARPStandard.Traits.Data;
+    using Rwc.Traits.Data;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]

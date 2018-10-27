@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\CSHARPStandard.Traits.Data\CSHARPStandard.Traits.Data.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Rwc.Traits.Data\Rwc.Traits.Data.csproj" />
   </ItemGroup>
 
 </Project>

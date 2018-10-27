@@ -1,8 +1,8 @@
 namespace TestTraitsBusiness
 {
     using CSHARPStandard.Data.Common;
-    using CSHARPStandard.Traits.Business;
-    using CSHARPStandard.Traits.Data;
+    using Rwc.Traits.Business;
+    using Rwc.Traits.Data;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using System;
 
@@ -10,12 +10,12 @@ namespace TestTraitsBusiness
     /// Unit Tests the Data Manager
     /// </summary>
     [TestClass]
-    public class TestDataManager
+    public class TestTraitsDataManager
     {
         [TestMethod]
         public void TestDataManagerApplyTraitSuccessNoStatusObject()
         {
-            var dataManager = new DataManager
+            var dataManager = new TraitsDataManager
             {
                 Traits = new BaseTraits(),
                 ConnectionString = string.Empty,
@@ -32,7 +32,7 @@ namespace TestTraitsBusiness
         [TestMethod]
         public void TestDataManagerApplyTraitWithNullTraitsCollectionAndTraitPair()
         {
-            var dataManager = new DataManager
+            var dataManager = new TraitsDataManager
             {
                 Traits = null,
                 ConnectionString = string.Empty,
@@ -50,7 +50,7 @@ namespace TestTraitsBusiness
         [TestMethod]
         public void TestDataManagerApplyTraitWithNullTraitPair()
         {
-            var dataManager = new DataManager
+            var dataManager = new TraitsDataManager
             {
                 Traits = new BaseTraits(),
                 ConnectionString = string.Empty,

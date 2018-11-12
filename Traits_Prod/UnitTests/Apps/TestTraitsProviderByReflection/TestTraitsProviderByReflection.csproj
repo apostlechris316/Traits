@@ -7,13 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DiagnosticsQuickStart.Business" Version="1.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
     <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\Rwc.Traits.ProvidersByReflection\Rwc.Traits.ProvidersByReflection.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\TraitsQuickStart.Business\TraitsQuickStart.Business.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\TraitsQuickStart.ProvidersByReflection\TraitsQuickStart.ProvidersByReflection.csproj" />
   </ItemGroup>
 
 </Project>

@@ -14,11 +14,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Foundation\CSHARPStandard.Traits.Business\CSHARPStandard.Traits.Business.csproj" />
-    <ProjectReference Include="..\..\Foundation\CSHARPStandard.Traits.ProvidersByReflection\CSHARPStandard.Traits.ProvidersByReflection.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="test_traits.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

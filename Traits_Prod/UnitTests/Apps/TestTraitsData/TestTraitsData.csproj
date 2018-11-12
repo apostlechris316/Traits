@@ -7,14 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CSHARPStandard.Data.Common" Version="0.0.0.7" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
     <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
+    <PackageReference Include="StandardDataStructureQuickStart.Data" Version="1.0.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\Rwc.Traits.Data\Rwc.Traits.Data.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\TraitsQuickStart.Data\TraitsQuickStart.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,8 +1,8 @@
 namespace TestTraitsData
 {
-    using CSHARPStandard.Data.Common;
-    using Rwc.Traits.Data;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using StandardDataStructureQuickStart.Data;
+    using TraitsQuickStart.Data;
 
     [TestClass]
     public class TestBaseTraits
@@ -10,13 +10,8 @@ namespace TestTraitsData
         [TestMethod]
         public void TestAddingTraitPairs()
         {
-            BaseTraits baseTraits = new BaseTraits();
-            var testCustomField = new CustomField()
-            {
-                FieldName = "TestFieldName",
-                FieldValue = "TestFieldValue"
-            };
-
+            var baseTraits = new BaseTraits();
+            var testCustomField = new CustomField("TestFieldName", "TestFieldValue");
             baseTraits.TraitPairs.Add(testCustomField);
 
             Assert.AreEqual(testCustomField, baseTraits.TraitPairs[0]);

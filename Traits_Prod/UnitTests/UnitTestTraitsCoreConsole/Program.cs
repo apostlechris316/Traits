@@ -1,7 +1,7 @@
 ﻿namespace UnitTestTraitsCoreConsole
 {
-    using CSHARPStandard.Traits.Business;
-    using CSHARPStandard.Traits.ProvidersByReflection;
+    using Rwc.Traits.Business;
+    using Rwc.Traits.ProvidersByReflection;
     using System;
 
     class Program

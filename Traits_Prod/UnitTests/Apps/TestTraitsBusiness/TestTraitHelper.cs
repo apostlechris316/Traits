@@ -1,8 +1,9 @@
 namespace TestTraitsBusiness
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using Rwc.Traits.Business;
+    using TraitsQuickStart.Business;
     using System;
+    using StandardDataStructureQuickStart.Data;
 
     [TestClass]
     public class TestTraitHelper
@@ -91,7 +92,11 @@ namespace TestTraitsBusiness
                 TraitFileName = "TestTraits"
             };
 
-            traitsHelper.SaveTraits(traitsHelper.GetTraits());
+            var traits = traitsHelper.GetTraits();
+
+            traits.TraitPairs.Add(new CustomField("TestTrait_" + DateTime.Now.Year + "_" + DateTime.Now.DayOfYear.ToString() + "_" + DateTime.Now.Hour.ToString() + "_" + DateTime.Now.Minute.ToString(), DateTime.Now.Year.ToString()));
+            traits.TraitPairs.Add(new CustomField("TestTrait2_" + DateTime.Now.Year + "_" + DateTime.Now.DayOfYear.ToString() + "_" + DateTime.Now.Hour.ToString() + "_" + DateTime.Now.Minute.ToString(), DateTime.Now.Year.ToString()));
+            traitsHelper.SaveTraits(traits);
         }
 
         [TestMethod]

@@ -1,10 +1,10 @@
 namespace TestTraitsBusiness
 {
-    using CSHARPStandard.Data.Common;
-    using Rwc.Traits.Business;
-    using Rwc.Traits.Data;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using StandardDataStructureQuickStart.Data;
     using System;
+    using TraitsQuickStart.Business;
+    using TraitsQuickStart.Data;
 
     /// <summary>
     /// Unit Tests the Data Manager
@@ -22,11 +22,7 @@ namespace TestTraitsBusiness
                 Status = null
             };
 
-            dataManager.ApplyTrait(new CustomField()
-            {
-                FieldName = "TestFieldName",
-                FieldValue = "TestFieldValue"
-            });
+            dataManager.ApplyTrait(new CustomField("TestFieldName","TestFieldValue"));
         }
 
         [TestMethod]
@@ -40,12 +36,7 @@ namespace TestTraitsBusiness
             };
 
             Assert.ThrowsException<ArgumentNullException>(() => 
-                dataManager.ApplyTrait(new CustomField()
-                {
-                     FieldName = "TestFieldName",
-                     FieldValue = "TestFieldValue"
-                })
-            );
+                dataManager.ApplyTrait(new CustomField("TestFieldName", "TestFieldValue")));
         }
         [TestMethod]
         public void TestDataManagerApplyTraitWithNullTraitPair()

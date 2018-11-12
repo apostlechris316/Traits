@@ -1,10 +1,10 @@
 
 namespace TestTraitsProviderByReflection
 {
-    using Rwc.Traits.Business;
-    using Rwc.Traits.ProvidersByReflection;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using System;
+    using TraitsQuickStart.Business;
+    using TraitsQuickStart.ProvidersByReflection;
 
     [TestClass]
     public class TestBaseProviderManager

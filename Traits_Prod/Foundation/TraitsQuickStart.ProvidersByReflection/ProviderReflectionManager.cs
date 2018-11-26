@@ -67,7 +67,7 @@ namespace TraitsQuickStart.ProvidersByReflection
             if (string.IsNullOrEmpty(providerName)) throw new ArgumentNullException("ERROR: providerName is required");
 
             // Get the raw data source
-            var providerEntry = Traits.TraitPairs.FirstOrDefault(t => t.FieldName == "PROVIDER_" + objectType.ToUpperInvariant() + "_" + providerName.ToUpperInvariant());
+            var providerEntry = Traits.TraitPairs.FirstOrDefault(t => t.FieldName.ToUpperInvariant() == "PROVIDER_" + objectType.ToUpperInvariant() + "_" + providerName.ToUpperInvariant());
             if (providerEntry == null) throw new Exception("ERROR Provider not found in Traits (" + objectType.ToUpperInvariant() + "_" + providerName.ToUpperInvariant() + ")");
 
             // Apply the trait before returning
@@ -87,6 +87,7 @@ namespace TraitsQuickStart.ProvidersByReflection
         /// <returns></returns>
         /// <remarks>ASSUMES all trait variables already resolved. Creates instance from Assembly, if not overriden in trait for provider
         /// v0.0.1.1 - Wrong brackets strip off ddl name
+        /// 
         /// </remarks>
         public virtual object LoadProvider(string providerName, string objectType)
         {
@@ -97,7 +98,7 @@ namespace TraitsQuickStart.ProvidersByReflection
             if (string.IsNullOrEmpty(objectType)) throw new ArgumentException("objectType is required to load provider");
 
             // Look up the provider info 
-            var providerEntry = Traits.TraitPairs.FirstOrDefault(t => t.FieldName == "PROVIDER_" + objectType.ToUpperInvariant() + "_" + providerName.ToUpperInvariant());
+            var providerEntry = Traits.TraitPairs.FirstOrDefault(t => t.FieldName.ToUpperInvariant() == "PROVIDER_" + objectType.ToUpperInvariant() + "_" + providerName.ToUpperInvariant());
             if (providerEntry == null) throw new Exception("ERROR Provider not found in Traits (PROVIDER_" + objectType.ToUpperInvariant() + "_" + providerName.ToUpperInvariant() + ")");
 
             // Apply the trait before returning

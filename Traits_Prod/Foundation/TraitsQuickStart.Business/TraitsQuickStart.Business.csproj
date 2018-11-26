@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.3</Version>
     <Authors>Chris Williams</Authors>
     <Company>Read Watch Create</Company>
     <Product>Traits</Product>
@@ -17,6 +17,7 @@ If you are using CSHARPStandard.Traits or Rwc.Traits then note the changes to th
   <ItemGroup>
     <PackageReference Include="DiagnosticsQuickStart.Business" Version="1.0.0" />
     <PackageReference Include="JsonQuickStart" Version="1.0.0" />
+    <PackageReference Include="StandardDataStructureQuickStart.Data" Version="1.0.0.3" />
   </ItemGroup>
 
   <ItemGroup>

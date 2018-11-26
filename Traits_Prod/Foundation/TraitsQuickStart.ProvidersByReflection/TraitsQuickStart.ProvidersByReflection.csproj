@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.3</Version>
     <Authors>Chris Williams</Authors>
     <Company>Read Watch Create</Company>
     <Product>TraitsQuickStart</Product>
@@ -11,7 +11,9 @@
     <Copyright>(c) 2018 Read Watch Create</Copyright>
     <PackageReleaseNotes>Consider this a QuickStart that you can extend for your purposes.
 If you are using CSHARPStandard.Traits or Rwc.Traits then note the changes to the traits file format.
-</PackageReleaseNotes>
+
+v1.0.0.2 - When loading provider it now uses t.FieldName.ToUpperInvariant()
+v1.0.0.3 - When getting provider data source it now uses t.FieldName.ToUpperInvariant()</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

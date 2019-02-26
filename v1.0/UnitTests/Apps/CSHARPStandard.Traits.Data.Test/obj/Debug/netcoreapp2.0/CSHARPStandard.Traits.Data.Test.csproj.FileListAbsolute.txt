@@ -1,0 +1,16 @@
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\bin\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.Test.deps.json
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\bin\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.Test.runtimeconfig.json
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\bin\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.Test.runtimeconfig.dev.json
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\bin\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.Test.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\bin\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.Test.pdb
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\bin\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\bin\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.pdb
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\obj\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.Test.csprojResolveAssemblyReference.cache
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\obj\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.Test.csproj.CoreCompileInputs.cache
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\obj\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.Test.AssemblyInfoInputs.cache
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\obj\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.Test.AssemblyInfo.cs
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\obj\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.Test.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\CSHARPStandard.Traits.Data.Test\obj\Debug\netcoreapp2.0\CSHARPStandard.Traits.Data.Test.pdb

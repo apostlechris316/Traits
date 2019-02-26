@@ -1,0 +1,189 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "f68d50b5938767a332af6be9de9181e2eedc4347"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Rwc.Traits.ProvidersByReflection/0.0.1.1": {
+        "dependencies": {
+          "CSHARPStandard.IO": "1.0.1",
+          "CSHARPStandard.Reflection": "1.0.0.7",
+          "NETStandard.Library": "2.0.1",
+          "Rwc.Traits.Business": "0.0.1.2",
+          "Rwc.Traits.Data": "0.0.1"
+        },
+        "runtime": {
+          "Rwc.Traits.ProvidersByReflection.dll": {}
+        }
+      },
+      "CSHARPStandard.Data/2.0.0.11": {
+        "dependencies": {
+          "CSHARPStandard.Text": "2.0.0.18"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSHARPStandard.Data.dll": {}
+        }
+      },
+      "CSHARPStandard.Data.Common/0.0.0.7": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/CSHARPStandard.Data.Common.dll": {}
+        }
+      },
+      "CSHARPStandard.Data.Json/1.0.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSHARPStandard.Data.Json.dll": {}
+        }
+      },
+      "CSHARPStandard.Diagnostics/1.0.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/CSHARPStandard.Diagnostics.dll": {}
+        }
+      },
+      "CSHARPStandard.IO/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/CSHARPStandard.IO.dll": {}
+        }
+      },
+      "CSHARPStandard.Reflection/1.0.0.7": {
+        "runtime": {
+          "lib/netstandard2.0/CSHARPStandard.Reflection.dll": {}
+        }
+      },
+      "CSHARPStandard.Text/2.0.0.18": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/CSHARPStandard.Text.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Rwc.Traits.Business/0.0.1.2": {
+        "dependencies": {
+          "CSHARPStandard.Data": "2.0.0.11",
+          "CSHARPStandard.Data.Json": "1.0.1",
+          "CSHARPStandard.IO": "1.0.1",
+          "Rwc.Traits.Data": "0.0.1"
+        },
+        "runtime": {
+          "Rwc.Traits.Business.dll": {}
+        }
+      },
+      "Rwc.Traits.Data/0.0.1": {
+        "dependencies": {
+          "CSHARPStandard.Data.Common": "0.0.0.7",
+          "CSHARPStandard.Diagnostics": "1.0.0.6"
+        },
+        "runtime": {
+          "Rwc.Traits.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rwc.Traits.ProvidersByReflection/0.0.1.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSHARPStandard.Data/2.0.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XcQXME/YecAe6Gv4iOGGUuNjzmV7gByxnz4KBEYMuMPCmLtfmM/XrPGwubXkTlFHBpLZ0hb/W9PEZ52SULAZmQ==",
+      "path": "csharpstandard.data/2.0.0.11",
+      "hashPath": "csharpstandard.data.2.0.0.11.nupkg.sha512"
+    },
+    "CSHARPStandard.Data.Common/0.0.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VXh2BH1MU5sZAwEqtMs4NsLgx/VrA8jw+myuJDJwGVy6DXAQtKC9Rohvp/a7CRUq3K+peEAaG1mH+7368otQPw==",
+      "path": "csharpstandard.data.common/0.0.0.7",
+      "hashPath": "csharpstandard.data.common.0.0.0.7.nupkg.sha512"
+    },
+    "CSHARPStandard.Data.Json/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H+CkZVxf7QtWYEM1DDTPAuX3858sBNd8f8X5hmCS1O2uc2oxk92+uSqnhYDFcIjonPNK71hMQvbDPf2sohXQYw==",
+      "path": "csharpstandard.data.json/1.0.1",
+      "hashPath": "csharpstandard.data.json.1.0.1.nupkg.sha512"
+    },
+    "CSHARPStandard.Diagnostics/1.0.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CgiZ+24zTJT4hXpKfH2b2dLpHucVR4iaVyCv2PuDYWOYtX7YMqKs53e8L3X1xreYPa/IoDnT2x7qlZ4mfRNseQ==",
+      "path": "csharpstandard.diagnostics/1.0.0.6",
+      "hashPath": "csharpstandard.diagnostics.1.0.0.6.nupkg.sha512"
+    },
+    "CSHARPStandard.IO/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bzjEYDqNhlQkipJagsLd0Nm6+QLnMSL4o4Q5gX00OQ/Fp8bn5beSYGH3JgyyR1gYGobQfm6MoCK+bTTfqw5tdA==",
+      "path": "csharpstandard.io/1.0.1",
+      "hashPath": "csharpstandard.io.1.0.1.nupkg.sha512"
+    },
+    "CSHARPStandard.Reflection/1.0.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JsuLemOVvJ60OfHe6MSwfWun55na9hcNvAFsKw26PPMh3xZF1gX4hO0C8T7BUrWpwnZJrL2VqW7gYVK20b4ntw==",
+      "path": "csharpstandard.reflection/1.0.0.7",
+      "hashPath": "csharpstandard.reflection.1.0.0.7.nupkg.sha512"
+    },
+    "CSHARPStandard.Text/2.0.0.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xd2iMR2cpa35EWy90Bf0mxawPt0Af6QEBm6TpjR0a5G1uf+DjMSHHS+E2rsXNBRGFg7hAFXU7wKJPNifc/mE6A==",
+      "path": "csharpstandard.text/2.0.0.18",
+      "hashPath": "csharpstandard.text.2.0.0.18.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Rwc.Traits.Business/0.0.1.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rwc.Traits.Data/0.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CSHARPStandard.Traits.Data</id>
+    <version>0.0.0.6</version>
+    <authors>Chris Williams</authors>
+    <owners>Chris Williams</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This library contains the Data Transfer Objects used to store traits (settings) regardless of whether .NET Framework or .NET Core</description>
+    <releaseNotes>v0.0.0.5 - Addition of IDataReader and IDataWriter interfaces
+v0.0.0.6 - Uses CSHARPStandard.Data.Common v0.0.0.7</releaseNotes>
+    <copyright>(c) 2018 Read Watch Create</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="CSHARPStandard.Data.Common" version="0.0.0.7" exclude="Build,Analyzers" />
+        <dependency id="CSHARPStandard.Diagnostics" version="1.0.0.5" exclude="Build,Analyzers" />
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\_git\CSHARP.Traits\Apps\CSHARPStandard.Traits.Data\bin\Debug\netstandard1.3\CSHARPStandard.Traits.Data.dll" target="lib\netstandard1.3\CSHARPStandard.Traits.Data.dll" />
+  </files>
+</package>

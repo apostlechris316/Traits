@@ -1,0 +1,11 @@
+C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Business\obj\Debug\netstandard2.0\TraitsQuickStart.Business.csprojResolveAssemblyReference.cache
+C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Business\obj\Debug\netstandard2.0\TraitsQuickStart.Business.csproj.CoreCompileInputs.cache
+C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Business\obj\Debug\netstandard2.0\TraitsQuickStart.Business.AssemblyInfoInputs.cache
+C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Business\obj\Debug\netstandard2.0\TraitsQuickStart.Business.AssemblyInfo.cs
+C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Business\bin\Debug\netstandard2.0\TraitsQuickStart.Business.deps.json
+C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Business\bin\Debug\netstandard2.0\TraitsQuickStart.Business.dll
+C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Business\bin\Debug\netstandard2.0\TraitsQuickStart.Data.dll
+C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Business\bin\Debug\netstandard2.0\TraitsQuickStart.Data.pdb
+C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Business\bin\Debug\netstandard2.0\TraitsQuickStart.Business.pdb
+C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Business\obj\Debug\netstandard2.0\TraitsQuickStart.Business.dll
+C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Business\obj\Debug\netstandard2.0\TraitsQuickStart.Business.pdb

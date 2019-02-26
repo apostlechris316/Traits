@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "fbd92993daf2b25380175fe082608ffe2cfa1543"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "CSHARPStandard.Traits.Data/0.0.1.1": {
+        "dependencies": {
+          "CSHARPStandard.Data.Common": "0.0.0.7",
+          "CSHARPStandard.Diagnostics": "1.0.0.6",
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "CSHARPStandard.Traits.Data.dll": {}
+        }
+      },
+      "CSHARPStandard.Data.Common/0.0.0.7": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/CSHARPStandard.Data.Common.dll": {}
+        }
+      },
+      "CSHARPStandard.Diagnostics/1.0.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/CSHARPStandard.Diagnostics.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSHARPStandard.Traits.Data/0.0.1.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSHARPStandard.Data.Common/0.0.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VXh2BH1MU5sZAwEqtMs4NsLgx/VrA8jw+myuJDJwGVy6DXAQtKC9Rohvp/a7CRUq3K+peEAaG1mH+7368otQPw==",
+      "path": "csharpstandard.data.common/0.0.0.7",
+      "hashPath": "csharpstandard.data.common.0.0.0.7.nupkg.sha512"
+    },
+    "CSHARPStandard.Diagnostics/1.0.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CgiZ+24zTJT4hXpKfH2b2dLpHucVR4iaVyCv2PuDYWOYtX7YMqKs53e8L3X1xreYPa/IoDnT2x7qlZ4mfRNseQ==",
+      "path": "csharpstandard.diagnostics/1.0.0.6",
+      "hashPath": "csharpstandard.diagnostics.1.0.0.6.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    }
+  }
+}

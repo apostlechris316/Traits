@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TraitsQuickStart.ProvidersByReflection</id>
+    <version>1.0.0.2</version>
+    <authors>Chris Williams</authors>
+    <owners>Chris Williams</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This library provides a mechanism to load providers from traits json files.</description>
+    <releaseNotes>Consider this a QuickStart that you can extend for your purposes.
+If you are using CSHARPStandard.Traits or Rwc.Traits then note the changes to the traits file format.
+
+v1.0.0.2 - When loading provider it now uses t.FieldName.ToUpperInvariant()</releaseNotes>
+    <copyright>(c) 2018 Read Watch Create</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="TraitsQuickStart.Data" version="1.0.0.2" exclude="Build,Analyzers" />
+        <dependency id="TraitsQuickStart.Business" version="1.0.0.3" exclude="Build,Analyzers" />
+        <dependency id="DiagnosticsQuickStart.Business" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.ProvidersByReflection\bin\Debug\netstandard2.0\TraitsQuickStart.ProvidersByReflection.dll" target="lib\netstandard2.0\TraitsQuickStart.ProvidersByReflection.dll" />
+  </files>
+</package>

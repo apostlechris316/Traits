@@ -1,0 +1,11 @@
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Business\bin\Debug\netstandard2.0\Rwc.Traits.Data.dll
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Business\obj\Debug\netstandard2.0\Rwc.Traits.Business.csprojResolveAssemblyReference.cache
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Business\obj\Debug\netstandard2.0\Rwc.Traits.Business.csproj.CoreCompileInputs.cache
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Business\obj\Debug\netstandard2.0\Rwc.Traits.Business.AssemblyInfoInputs.cache
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Business\obj\Debug\netstandard2.0\Rwc.Traits.Business.AssemblyInfo.cs
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Business\bin\Debug\netstandard2.0\Rwc.Traits.Business.deps.json
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Business\bin\Debug\netstandard2.0\Rwc.Traits.Business.dll
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Business\bin\Debug\netstandard2.0\Rwc.Traits.Data.pdb
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Business\bin\Debug\netstandard2.0\Rwc.Traits.Business.pdb
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Business\obj\Debug\netstandard2.0\Rwc.Traits.Business.dll
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Business\obj\Debug\netstandard2.0\Rwc.Traits.Business.pdb

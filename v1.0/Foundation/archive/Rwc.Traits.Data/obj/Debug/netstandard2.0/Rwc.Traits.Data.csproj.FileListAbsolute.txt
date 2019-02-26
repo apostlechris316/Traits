@@ -1,0 +1,9 @@
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Data\bin\Debug\netstandard2.0\Rwc.Traits.Data.deps.json
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Data\bin\Debug\netstandard2.0\Rwc.Traits.Data.dll
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Data\obj\Debug\netstandard2.0\Rwc.Traits.Data.csprojResolveAssemblyReference.cache
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Data\obj\Debug\netstandard2.0\Rwc.Traits.Data.csproj.CoreCompileInputs.cache
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Data\obj\Debug\netstandard2.0\Rwc.Traits.Data.AssemblyInfoInputs.cache
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Data\obj\Debug\netstandard2.0\Rwc.Traits.Data.AssemblyInfo.cs
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Data\bin\Debug\netstandard2.0\Rwc.Traits.Data.pdb
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Data\obj\Debug\netstandard2.0\Rwc.Traits.Data.dll
+C:\_git\Traits\Traits_Prod\Foundation\Rwc.Traits.Data\obj\Debug\netstandard2.0\Rwc.Traits.Data.pdb

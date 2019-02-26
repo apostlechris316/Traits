@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CSHARPStandard.Traits.ProvidersByReflection</id>
+    <version>0.0.0.3</version>
+    <authors>Chris Williams</authors>
+    <owners>Chris Williams</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This library provides functionality to load providers via reflection settings in traits.</description>
+    <copyright>(c) 2018 Read Watch Create</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="CSHARPStandard.IO" version="1.0.0.16" exclude="Build,Analyzers" />
+        <dependency id="CSHARPStandard.Reflection" version="1.0.0.3" exclude="Build,Analyzers" />
+        <dependency id="CSHARPStandard.Traits.Business" version="0.0.0.4" exclude="Build,Analyzers" />
+        <dependency id="CSHARPStandard.Traits.Data" version="0.0.0.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\_git\CSHARP.Traits\Apps\CSHARPStandard.Traits.ProvidersByReflection\bin\Debug\netstandard2.0\CSHARPStandard.Traits.ProvidersByReflection.dll" target="lib\netstandard2.0\CSHARPStandard.Traits.ProvidersByReflection.dll" />
+  </files>
+</package>

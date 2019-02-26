@@ -1,0 +1,11 @@
+{
+  "traits": {
+    "#comment": [],
+    "trait": [
+      {
+        "fieldname": "PROVIDER_TEST_Default",
+        "fieldvalue": "CSHARPStandard.Traits.Data.dll,CSHARPStandard.Traits.Data.BaseTraits,,"
+      }
+    ]
+  }
+}

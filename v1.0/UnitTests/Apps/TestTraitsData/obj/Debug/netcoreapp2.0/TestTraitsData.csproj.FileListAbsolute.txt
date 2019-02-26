@@ -1,0 +1,16 @@
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\bin\Debug\netcoreapp2.0\TestTraitsData.deps.json
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\bin\Debug\netcoreapp2.0\TestTraitsData.runtimeconfig.json
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\bin\Debug\netcoreapp2.0\TestTraitsData.runtimeconfig.dev.json
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\bin\Debug\netcoreapp2.0\TestTraitsData.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\bin\Debug\netcoreapp2.0\TestTraitsData.pdb
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\obj\Debug\netcoreapp2.0\TestTraitsData.csprojResolveAssemblyReference.cache
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\obj\Debug\netcoreapp2.0\TestTraitsData.csproj.CoreCompileInputs.cache
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\obj\Debug\netcoreapp2.0\TestTraitsData.AssemblyInfoInputs.cache
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\obj\Debug\netcoreapp2.0\TestTraitsData.AssemblyInfo.cs
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\obj\Debug\netcoreapp2.0\TestTraitsData.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\obj\Debug\netcoreapp2.0\TestTraitsData.pdb
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\bin\Debug\netcoreapp2.0\TraitsQuickStart.Data.dll
+C:\_git\Traits\Traits_Prod\UnitTests\Apps\TestTraitsData\bin\Debug\netcoreapp2.0\TraitsQuickStart.Data.pdb

@@ -1,9 +1,0 @@
-C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Data\obj\Debug\netstandard2.0\TraitsQuickStart.Data.csproj.CoreCompileInputs.cache
-C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Data\obj\Debug\netstandard2.0\TraitsQuickStart.Data.AssemblyInfoInputs.cache
-C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Data\obj\Debug\netstandard2.0\TraitsQuickStart.Data.AssemblyInfo.cs
-C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Data\obj\Debug\netstandard2.0\TraitsQuickStart.Data.csprojResolveAssemblyReference.cache
-C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Data\bin\Debug\netstandard2.0\TraitsQuickStart.Data.deps.json
-C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Data\bin\Debug\netstandard2.0\TraitsQuickStart.Data.dll
-C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Data\bin\Debug\netstandard2.0\TraitsQuickStart.Data.pdb
-C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Data\obj\Debug\netstandard2.0\TraitsQuickStart.Data.dll
-C:\_git\Traits\Traits_Prod\Foundation\TraitsQuickStart.Data\obj\Debug\netstandard2.0\TraitsQuickStart.Data.pdb

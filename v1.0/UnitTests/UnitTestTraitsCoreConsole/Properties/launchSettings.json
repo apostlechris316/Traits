@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "UnitTestTraitsCoreConsole": {
-      "commandName": "Project",
-      "commandLineArgs": "DIAGNOSTICS|SxPEAKING_CONSOLE_LOG test_traits "
-    }
-  }
-}

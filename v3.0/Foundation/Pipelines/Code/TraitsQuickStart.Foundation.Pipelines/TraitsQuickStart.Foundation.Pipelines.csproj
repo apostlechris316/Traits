@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiagnosticsQuickStart.Business" Version="1.0.0" />
+    <PackageReference Include="JsonQuickStart" Version="1.0.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Reflection\Code\TraitsQuickStart.Foundation.Reflection.ProvidersByReflection\TraitsQuickStart.Foundation.Reflection.ProvidersByReflection.csproj" />
+    <ProjectReference Include="..\..\..\Reflection\Code\TraitsQuickStart.Foundation.Reflection.ReflectionByDefinition\TraitsQuickStart.Foundation.Reflection.ReflectionByDefinition.csproj" />
+    <ProjectReference Include="..\..\..\Traits\Code\TraitsQuickStart.Foundation.Traits\TraitsQuickStart.Foundation.Traits.csproj" />
+  </ItemGroup>
+
+</Project>

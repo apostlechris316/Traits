@@ -1,0 +1,23 @@
+What's New in 3.0
+
+* These libraries now more closely follow the Helix Architecture.
+* ReflectionDefinition now has an interface and supports serialization of extended reflection definitions.
+* Now supports an additional reflection mode:
+	Reflection: This model allows you to pass in the assembly path, name and type 
+* Trait storage providers are now loaded via reflection rather than statically bound.
+* Traits pipelines now part of foundation and support additional functionality such as isMeteredProvider on providers and ITraitsResult interface.
+
+What Was New in 2.0
+
+* Traits can now be loaded and saved to various sources. Out of box it supports File and String providers.
+* Now supports 3 reflection modes:
+
+1) Reflection: This model allows you to pass in the assembly path, assembly name and type name.
+2) ProviderByReflection: This model stores all the reflection definitions in the traits.json file. By doing this you only have a single configuration file to maintain however if you have a lot of providers this file can grow. Also if you need to swap in and out definitions, having them in their own files makes it easier to do so. If this is the case you have another option.
+
+3) RelectionByDefinition: This model stores each reflection definition in its own definition file. This allows you to swap in and out definitions. This model works best when you have a lot of reflection definitions as it removes the clutter from the traits file. 
+
+* Diagnostics .NET Core Console project to help with creating, editing and validating traits files.
+
+
+ 

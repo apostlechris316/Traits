@@ -1,0 +1,109 @@
+<html>
+<head>
+</head>
+<body>
+<h1>HubAI API Foundation</h1>
+
+<p><a href="../index.html">Back</a></p>
+
+<p>A central API to access all your Artificial Intelligence and Machine Learning APIs</p>
+
+<p>The foundation section contains the building blocks of HubAI. These libraries can reference each other but none of the libraries in the feature section</p>
+
+<p>Each foundation section contains a code and a test section. Testing is and important part of an API First approach and each library should be fully tested.</p>
+
+<h2>ExecutionProviders</h2>
+
+<p>An execution provider connects to a specific api (or set of apis) to return a <a href="#RESULTS_HUBAIRESULT">result</a>.</p>
+
+<p><a name="EXECUTIONPROVIDERS_EXECUTIONPROVIDER">IHubAIExecutionProvider</a>: Interface implemented by a HubAI execution provider. This interface will contains:<br/>
+    <ul>
+        <li>IsMeteredProvider: Returns true if this provider has a potential cost or usage limit related to it</li>
+        <li>ProviderSettings: A collection of settings required by the provider to process the content</li>
+        <li>ErrorMode: This determines how the pipeline handles errors. Possible values are:<br/>
+            <ul> 
+                <li>SKIP_ON_ERROR: If an error occurs in a provider it will log the errror and go onto the next step</li>
+                <li>STOP_ON_ERROR: If an error occurs all processing will stop and an error will be displayed.</li>        <li>ProbabilityWeight: This number determines how likely we feel this is best result</li>
+            </ul>
+        </li>
+        <li>Validate: Validate The Provider based on content passed in. Skips call to APIs and returns a sample result that may not match content. Any analysis will be written to the AdditionalMeta on the results</li>
+        <li>Process: Processes the content and provides a list of possible results</li>
+    </ul>
+</p>
+
+<h2>Pipelines</h2>
+
+<P>A pipeline contains a series of steps that may or may not be executed based on criteria/rules to return a series of results.</p>
+
+<p><a name="PIPELINES_PIPELINE">IHubAIPipeline/HubAIPipeline</a>: A pipeline contains a series of steps that may or may not be executed. This pipeline will contains:<br/>
+    <ul>
+        <li>PipelineExecutionMode: This determines how pipeline steps are treated. Possible values are:<br/> 
+            <ul> 
+                <li>FIRST_MATCHING: The first step that is valid to</li>
+                <li>ALL_MATCHING</li>
+                <li>FIRST_NON_METERED_MATCHING</li>
+                <li>ALL_NON_METERED_MATCHING</li>
+            </ul>
+        </li>
+        <li>ErrorMode:This determines how the pipeline step handles errors. Possible values are:<br/>
+            <ul> 
+                <li>SKIP_ON_ERROR: If an error occurs in a provider it will log the errror and go onto the next step</li>
+                <li>STOP_ON_ERROR: If an error occurs all processing will stop and an error will be displayed.</li>
+                <li>USE_PIPELINE_STEP_ERROR_MODE: If an error occurs it will look at the ErrorMode on the PipelineStep to determine the best response.</li>
+            </ul>
+        </li>
+        <li>PipelineSteps: This is a step that may be executed based on a set of criteria or rules</li>
+    </ul>
+</p>
+
+<p><a name="PIPELINES_PIPELINESTEP">IHubAIPipelineStep/HubAIPipelineStep</a>: A pipeline step contains a provider and critera on when to execute it. This pipeline step will contains:<br/>
+    <ul>
+        <li>ProviderName: The name of the provider to run for this step</li> 
+        <li>ProviderWeight: Applied to the result to reflect the importance given to this provider in determining the result</li> 
+        <li>ProviderSettings: Additional settings needed to use this provider. For example an API Key.</li>
+        <li>Rules: A list of rules in JSON format that determine when to run it and other factors that would affect the execution</li>
+        <li>ExecutionProvider: The actual provider to run</li>
+        <li>ErrorMode:This determines how the pipeline step handles errors. Possible values are:
+            <ul>
+                <li>SKIP_ON_ERROR:                  If an error occurs in a provider it will log the errror and go onto the next step</li>
+                <li>STOP_ON_ERROR:                  If an error occurs all processing will stop and an error will be displayed.</li>
+                <li>USE_ERROR_HANDLING_RULE:        If an error occurs it will look for the ERROR_HANDLER rule and will use that to determine the response to an error.</li>
+                <li>USE_PROVIDER_STEP_ERROR_MODE:   If an error occurs it will look at the ErrorMode on the Provider to determine the best response.</li>
+            </ul>
+        </li>
+    </ul>    
+</p>
+
+<p><a name="PIPELINES_PIPELINEMANAGER">HubAIPipelineManager</a>: A pipeline contains a series of steps that may or may not be executed. This pipeline will contains:<br/>
+
+</p>
+
+<h2>Reflection</h2>
+
+<p>These libraries provide functionality to load providers based on reflection.</p>
+
+<h2>Results</h2>
+
+<p><a name="RESULTS_HUBAIRESULT">IHubAIResult/HubAIResult</a>: A general HubAI Result is returned from every execution provider. This result will contains:<br/>
+    <ul>
+        <li>ResultType: The type of result returned eg. LANGUAGE_DETECTION, IMAGE_TAGGING, SENTIMENT, etc</li>
+        <li>Version: This is used in case different providers return different JSON formats for the same Result Type</li>
+        <li>Result: The result in JSON
+        <li>ProbabilityWeight: This number determines how likely we feel this is best result</li>
+        <li>AdditionalMeta: This is inforamation that describes how the result was obtained and if there are any other information known</li>
+    </ul>
+</p>
+
+<h2>Serialization</h2>
+
+<p>These libraries provide functionality to load and save objects to JSON.</p>
+
+<p><a name="SERIALIZATION_SERIALIZATION">HubAISerialization</a>: This class is responsible for serializing and deserializing objects to JSON. This class contains:<br/>
+    <ul>
+        <li>DeserializeJsonObject: Deserialize a JSON Content to an object.</li>
+        <li>Version: Serialize object to a JSON stream</li>
+    </ul>
+</p>
+
+</body>
+</html>

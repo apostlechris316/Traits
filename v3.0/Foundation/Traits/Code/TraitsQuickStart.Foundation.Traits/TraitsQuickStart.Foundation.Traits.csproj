@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>3.0.0.0</Version>
+    <Authors>Chris Williams</Authors>
+    <Company>Read Watch Create</Company>
+    <Product>Traits</Product>
+    <Description>This library contains the data transfer objects and business logic to read and write traits</Description>
+    <Copyright>(c) 2019 Read Watch Create</Copyright>
+    <PackageReleaseNotes>v3.0.0.0 - This version uses extended Helix architecture. It also allows for derived Reflection Definitions and additional sources to load reflection definitions.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiagnosticsQuickStart.Business" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Reflection\Code\TraitsQuickStart.Foundation.Reflection\TraitsQuickStart.Foundation.Reflection.csproj" />
+  </ItemGroup>
+
+</Project>

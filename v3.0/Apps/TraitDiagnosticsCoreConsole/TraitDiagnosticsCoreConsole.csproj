@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Version>2.0.0.1</Version>
+    <Authors>Chris Williams</Authors>
+    <Company>Read Watch Create</Company>
+    <Product>Traits</Product>
+    <Description>This .NET Core Console application provides samples of calling libraries as well as menu options to assist you in creating traits and pipeline files to get started.</Description>
+    <Copyright>(c) 2019 Read Watch Create</Copyright>
+    <PackageReleaseNotes>v2.0.0.1 - TraitsHelper is now TraitsManager and supports different sources for traits (File and String). Introducing Reflection Definitions and Pipelines</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiagnosticsQuickStart.Business" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Foundation\Pipelines\Code\TraitsQuickStart.Foundation.Pipelines\TraitsQuickStart.Foundation.Pipelines.csproj" />
+    <ProjectReference Include="..\..\Foundation\Reflection\Code\TraitsQuickStart.Foundation.Reflection.ReflectionByDefinition\TraitsQuickStart.Foundation.Reflection.ReflectionByDefinition.csproj" />
+    <ProjectReference Include="..\..\Foundation\Traits\Code\TraitsQuickStart.Foundation.Traits\TraitsQuickStart.Foundation.Traits.csproj" />
+  </ItemGroup>
+
+</Project>
